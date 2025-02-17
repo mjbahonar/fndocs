@@ -11,7 +11,7 @@ sections:
   - block: hero
     content:
       title: Fine-Tune Stable Difussion with LoRA
-      text: A ultimate guide to create wounderfull images 🎉
+      text: An ultimate guide to creating wonderful images 🎉
       primary_action:
         text: About Us
         url: https://hugoblox.com/templates/details/docs/
