@@ -1,7 +1,6 @@
 ---
-linkTitle: Reference
-title: Reference
-toc: true
+linkTitle: Start
+title: Start
 ---
 
 Welcome!!
