@@ -3,57 +3,25 @@ title: This is first
 weight: 1
 ---
 
-## Folder Structure
+## Before We Begin
 
-There are **4 main folders for Hugo-based sites**:
+Fist we should prepare our tools
 
-- `content/` for your Markdown-formatted content files (homepage, etc.)
-  - `_index.md` the homepage (**Hugo requires that the homepage and archive pages have an underscore prefix**)
-- `assets/`
-  - `media/` for your media files (images, videos)
-    - `icons/custom/` upload any custom SVG icons you want to use
-- `config/_default/` for your site configuration files
-  - `hugo.yaml` to configure Hugo (site title, URL, Hugo options, setup per-folder page features)
-  - `module.yaml` to install or uninstall Hugo themes and plugins
-  - `params.yaml` to configure Hugo Blox options (SEO, analytics, site features)
-  - `menus.yaml` to configure your menu links (if the menu is enabled in `params.yaml`)
-  - `languages.yaml` to configure your site's language or to set language-specific options in a multilingual site
-- `static/uploads/` for any files you want visitors to download, such as a PDF
-- `go.mod` sets the version of Hugo themes/plugins which your site uses
+We need these tools:
 
 
-## Hugo File Naming Convention
 
-Hugo gives us two options to name standard page files: as `TITLE/index.md` or `TITLE.md` where `TITLE` is your page name.
+## Our Refrences As our Guide
 
-The page name should be lowercase and using hyphens (`-`) instead of spaces.
+*   [Fine-Tuning Stable Diffusion with LoRA](https://machinelearningmastery.com/fine-tuning-stable-diffusion-with-lora) (Webpage)
+*   [Fine-Tune Stable Diffusion with LoRA for as Low as $1](https://youtu.be/Zev6F0T1L3Y?t=458) (Video)
+*   [Pokémon Dataset](https://huggingface.co/datasets/svjack/pokemon-blip-captions-en-zh) (Dataset)
+*   [Diffusers GitHub Repository](https://github.com/huggingface/diffusers/) (GitHub)
+*   [How to Fine-Tune with LoRA by Hugging Face](https://huggingface.co/docs/diffusers/en/training/lora) (Documentation)
 
-Both approaches result in the same output, so you can choose your preferred approach to naming and organizing files. A benefit to the folder-based approach is that all your page's files (such as images) are self-contained within the page's folder, so it's more portable if you wish to share the original Markdown page with someone.
-
-The homepage is a special case as **Hugo requires the homepage and listing pages to be named** `_index.md`.
-
-## Docs Navigation
-
-The docs navigation is automatically generated based on the content in the `docs/` folder and is sorted alphabetically.
-
-The order of pages can be changed by adding the `weight` parameter in the front matter of your Markdown files.
-
-In the example below, the `example.md` page will appear before the `test.md` page as it has a lower `weight`:
-
-Page `example.md`:
-
-```yaml
----
-title: My Example
-weight: 1
----
-```
-
-Page `test.md`:
-
-```yaml
----
-title: My Test
-weight: 2
----
-```
+## Tools
+* [A GPU server](https://vast.ai) -  To run our Cods. In our journy we use [vast.ai](https://vast.ai)
+* [Putty](https://www.putty.org/) - We need putty to conect to server by SSH
+* [WinASP](https://winscp.net/eng/download.php) - To filetransfer easily between server and local PC
+* Creatin account on [HuggingFace](https://huggingface.co/)
+* Python 3
