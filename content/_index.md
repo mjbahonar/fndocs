@@ -10,10 +10,10 @@ design:
 sections:
   - block: hero
     content:
-      title: Write Docs Fast, Focus on Your Content
-      text: The easy, no-code technical documentation solution your users will love 🎉
+      title: Fine-Tune Stable Difussion with LoRA
+      text: A ultimate guide to create wounderfull images 🎉
       primary_action:
-        text: Get Started
+        text: About Us
         url: https://hugoblox.com/templates/details/docs/
         icon: rocket-launch
       secondary_action:
