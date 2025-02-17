@@ -85,7 +85,7 @@ sections:
   - block: cta-card
     content:
       title: "Ask Us any question you need"
-      text: "Fine-tuning Stable Diffusion with LoRA is an excellent approach because it combines efficiency, flexibility, and cost-effectiveness while preserving the model's pre-trained knowledge. By focusing on a small subset of parameters through low-rank adaptations, LoRA significantly reduces computational and memory requirements, enabling faster training and lower resource costs. This method minimizes the risk of overfitting, especially when working with smaller datasets, and allows for scalable and flexible adaptations to various tasks, such as domain-specific image generation or style transfer. Overall, LoRA provides a streamlined and powerful way to customize Stable Diffusion without compromising its core capabilities."
+      text: "Our docs are clear, concise, and packed with practical examples, making it easy to implement and troubleshoot. They save time and ensure success!"
       button:
         text: Get Started
         url: /docs/
