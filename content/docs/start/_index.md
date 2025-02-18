@@ -1,6 +1,7 @@
 ---
 linkTitle: Start
 title: Start
+weight: 10
 ---
 
 ## Start

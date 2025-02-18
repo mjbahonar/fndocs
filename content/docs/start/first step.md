@@ -1,6 +1,6 @@
 ---
 title: First Step
-weight: 1
+weight: 10
 ---
 
 ## Before We Begin

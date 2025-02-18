@@ -1,6 +1,6 @@
 ---
 title: Running The Server
-weight: 2
+weight: 20
 ---
 
 ## Connect to server
