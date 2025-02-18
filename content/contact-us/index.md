@@ -1,6 +1,8 @@
 ---
-title: "Contact Us"
-type: "landing"
+title: Contact Us
+toc: true
+reading_time: false
+pager: false
 ---
 
 # Get in Touch
