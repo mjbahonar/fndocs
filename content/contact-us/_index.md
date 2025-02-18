@@ -1,11 +1,6 @@
 ---
 title: "Contact Us"
 type: "landing"
-draft: false
-menu:
-  main:
-    name: "Contact"
-    weight: 4
 ---
 
 # Get in Touch
