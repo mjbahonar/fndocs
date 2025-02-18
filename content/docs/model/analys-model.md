@@ -1,5 +1,5 @@
 ---
-title: Analys 
+title: Analyze 
 weight: 10
 ---
 
