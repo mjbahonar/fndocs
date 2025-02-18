@@ -16,7 +16,7 @@ project fine-tunning
 │   │   pytorch_lora_weights.safetensors
 │   │   random_states_0.pkl
 │   │   scheduler.bin
-│   └───subfolder1
+│   └───
 └
 ```
 
