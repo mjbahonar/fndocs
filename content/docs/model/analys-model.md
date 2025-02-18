@@ -14,8 +14,8 @@ project fine-tunning
 │   │   model.safetensors
 │   │   optimizer.bin
 │   │   pytorch_lora_weights.safetensors
-|   |   random_states_0.pkl
-|   |   scheduler.bin
+│   │   random_states_0.pkl
+│   │   scheduler.bin
 │   └───subfolder1
 └
 ```
@@ -30,6 +30,6 @@ The key files in this directory are those with the `.safetensors` extension:
 |  | model.safetensors|torch_lora_weights.safetensors |
 |--|--|--|
 | **size** |as size the base model  |	small|
-| **description**|the original model woith tunned model combined in|	only the tuinned model|
+| **description**|the original model with tunned model combined in|	only the tunned model|
 
 
