@@ -4,25 +4,26 @@ date: 2024-02-17
 weight: 1
 ---
 
-## Quick Start from Template
+## Steps
 
 {{% steps %}}
 
-### Initialize a new site
+### Before We Begin
+What do we need to prepare our product? [First, test these parameters](start/first-step.md).
 
-[Click to copy the template on GitHub](https://github.com/new?template_name=theme-documentation&template_owner=HugoBlox)
+### Test a Model
 
-### Configure your new site
+### Create a Database
 
-[Configure your site name, description, and menu.](https://docs.hugoblox.com/tutorial/blog/)
+### Train the Model with Our Database
 
-### Add your content
+### Run Stable Diffusion with Our Model
 
-[Edit the homepage and add your documentation pages.](https://docs.hugoblox.com/tutorial/blog/)
+### Set Up a Business Model
 
-### Publish your site
+### Launch the Product
 
-[Easily publish your site for free with GitHub Pages](https://docs.hugoblox.com/tutorial/blog/)
+### Marketing
 
 {{% /steps %}}
 
@@ -31,6 +32,5 @@ weight: 1
 Let's customize your new site:
 
 {{< cards >}}
-  {{< card url="../guide/project-structure" title="Project Structure" icon="document-duplicate" >}}
-  {{< card url="../guide/configuration" title="Configuration" icon="adjustments-vertical" >}}
+  {{< card url="start/guide/first-step" title="First Step" icon="document-duplicate" >}}
 {{< /cards >}}
