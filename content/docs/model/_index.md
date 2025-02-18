@@ -1,5 +1,5 @@
 ---
-linkTitle: model
+linkTitle: Model
 title: Model
 weight: 20
 ---
