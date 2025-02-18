@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 date: 2024-02-17
-weight: 20
+weight: 10
 ---
 
 ## Steps

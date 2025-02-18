@@ -67,11 +67,11 @@ api.upload_folder(
 print(f"LoRA model uploaded to: https://huggingface.co/{repo_id}")
 
 ```
-1️⃣ After uploading, visit your model page in a browser to confirm the transfer. This may take time depending on the file size.
+- After uploading, visit your model page in a browser to confirm the transfer. This may take time depending on the file size.
  
-2️⃣ Ensure `lora_weights_path` points to your latest checkpoint directory
+- Ensure `lora_weights_path` points to your latest checkpoint directory
 
-3️⃣ Set `repo_id` to match your Hugging Face account and model.face account.
+- Set `repo_id` to match your Hugging Face account and model.face account.
 
 ## Test the model
 

@@ -1,7 +1,7 @@
 ---
 linkTitle: Documentation
 title: Introduction
-weight: 1
+weight: 20
 ---
 
 👋 Welcome to the docs of fine-tune stable diffusion with LoRA!
