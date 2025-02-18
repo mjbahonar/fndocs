@@ -10,7 +10,7 @@ design:
 sections:
   - block: hero
     content:
-      title: Fine-Tune Stable Difussion with LoRA
+      title: Fine-Tune Stable Diffusion with LoRA
       text: An ultimate guide to creating wonderful images 🎉
       primary_action:
         text: About Us

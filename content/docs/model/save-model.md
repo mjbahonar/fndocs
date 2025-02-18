@@ -38,6 +38,7 @@ Go to **Account Settings -> Access Tokens -> New Token**
 Now, install the required library on your server:  
 
     pip install huggingface_hub
+    huggingface-cli login
 
 Then, authenticate using your Hugging Face token. Once done, your Hugging Face setup is complete.
 
