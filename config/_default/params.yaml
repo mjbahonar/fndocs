@@ -14,7 +14,7 @@ marketing:
     site_type: Project
     local_business_type: ''
     org_name: ''
-    description: 'Fine-tune Stable Difussion with LoRA.'
+    description: 'Fine-tune Stable Diffusion with LoRA.'
     twitter: 'GetResearchDev'
   analytics:
     google_analytics: 'G-3P93X9E69J'
