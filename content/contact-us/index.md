@@ -24,7 +24,7 @@ Country
 
 Please fill out the form below, and we'll get back to you as soon as possible.
 
-<form action="https://formspree.io/mj.bahonar@gmail.com" method="POST">
+<form action="https://formspree.io/f/xeoepyyr" method="POST">
   <div style="margin-bottom: 1rem;">
     <label for="name" style="display: block; margin-bottom: 0.5rem;">Your Name:</label>
     <input type="text" id="name" name="name" required style="width: 100%; padding: 0.5rem; border-radius: 4px; border: 1px solid #ccc;">
