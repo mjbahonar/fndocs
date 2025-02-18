@@ -61,7 +61,7 @@ Once logged into Vast.ai, you will see an environment similar to the following:
 5. You will be redirected to a page that looks like the following.
 
 
-![!\[alt text\](vast-server.png)](../../../assets/media/vast-server.png)
+![!\[alt text\](vast-server.png)](vast-server.png)
 
 1. You should navigate to `INSTANCES` section
 2. Age of the server
