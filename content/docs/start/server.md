@@ -8,7 +8,7 @@ weight: 2
 After renting a server, we need to connect using the IP address in PuTTY. Configure PuTTY as explained in the previous documentation. Ensure you add your private key to PuTTY and set up the **IP address** and **port** as shown in the following image:
 
 
-![alt text](../../../assets/media/putty.png)
+![alt text](putty.png)
 
 
 ## Runnung the code

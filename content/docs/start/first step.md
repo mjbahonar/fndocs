@@ -5,13 +5,11 @@ weight: 1
 
 ## Before We Begin
 
-Fist we should prepare our tools
+### Preparing Our Tools
+Before starting, we need to prepare the necessary tools for fine-tuning Stable Diffusion with LoRA.
 
-We need these tools:
-
-
-
-## Our Refrences As our Guide
+## References
+Here are some useful resources to guide us through the process:
 
 *   [Fine-Tuning Stable Diffusion with LoRA](https://machinelearningmastery.com/fine-tuning-stable-diffusion-with-lora) (Webpage)
 *   [Fine-Tune Stable Diffusion with LoRA for as Low as $1](https://youtu.be/Zev6F0T1L3Y?t=458) (Video)
@@ -19,36 +17,45 @@ We need these tools:
 *   [Diffusers GitHub Repository](https://github.com/huggingface/diffusers/) (GitHub)
 *   [How to Fine-Tune with LoRA by Hugging Face](https://huggingface.co/docs/diffusers/en/training/lora) (Documentation)
 
-## Tools
-* [A GPU server](https://vast.ai) -  To run our Cods. In our journy we use [vast.ai](https://vast.ai)
-* [Putty](https://www.putty.org/) - We need putty to conect to server by SSH
-* [WinASP](https://winscp.net/eng/download.php) - To filetransfer easily between server and local PC
-* Creatin account on [HuggingFace](https://huggingface.co/)
-* Python 3
+## Required Tools
 
-## Connect to Server
-### Log-in to the server
-Go to [https://cloud.vasi.at](https://cloud.vasi.at). Obviously you should have register anc charge you account.
+To set up our working environment, we need the following tools:
 
-### Creating a SSH connection
-Install puty Putty](https://www.putty.org/) as mentioned on your PC. (Ubuntu or MAC users would not need this. ALso you can use PowerShell in Microsoft Windows but its recommended to use Putty).
-Wath video below. You need to create a **ssh key **with **puttygen**.
+* [A GPU server](https://vast.ai) - To run our code. In this guide, we use [vast.ai](https://vast.ai).
+* [PuTTY](https://www.putty.org/) - To connect to the server via SSH.
+* [WinSCP](https://winscp.net/eng/download.php) - For easy file transfer between the server and local PC.
+* A [Hugging Face](https://huggingface.co/) account.
+* Python 3 - Ensure Python 3 is installed on your system.
 
-[![Putty](https://img.youtube.com/vi/KraLVgFS4vU/0.jpg)](https://www.youtube.com/watch?v=KraLVgFS4vU)
+## Connecting to the Server
 
+### Logging into the Server
+1. Go to [https://cloud.vast.ai](https://cloud.vast.ai).
+2. Register and ensure your account has sufficient credit.
 
-After that you should add you public key to **vast** account as below:
+### Creating an SSH Connection
+1. Install [PuTTY](https://www.putty.org/) as mentioned above. (Ubuntu and macOS users can use the terminal instead. Windows users can also use PowerShell, but PuTTY is recommended.)
+2. Watch the video below to learn how to create an SSH key using **PuTTYgen**:
 
-m![alt text](../../../assets/media/vasi_key.png)
+   [![PuTTY](https://img.youtube.com/vi/KraLVgFS4vU/0.jpg)](https://www.youtube.com/watch?v=KraLVgFS4vU)
 
-### Slecting a Server
+3. After generating your SSH key, add the public key to your **Vast.ai** account as shown below:
 
-After loggin into server you will see an enviroment such the following image:
+   ![Public Key Setup](vasi_key.png)
 
-![alt text](../../../assets/media/vast.png)
+### Selecting a Server
 
-At top left side you should choose your template. It is recommended to select **Ubuntu 22.04**. Other wise select any you want. At the right side you can choose your GPU. In trining and testing phase, **Nvidia RTX Series** are good choices. Espesially **RTX3070**, **RTX3060**, and **RTX3090** depend on your required calculations.
+Once logged into Vast.ai, you will see an environment similar to the following:
 
-There are two types of servers available. **On-demand** and **interuptable**. Which highly **on-demand** is recommended tue to **interuptable** servers may be interrupt duting the connection. 
-After selecting you server press **RENT**.
-Then you redirect to a page look like the following.
+![Server Selection](vast.png)
+
+1. **Choose a Template:**
+   - It is recommended to select **Ubuntu 22.04**.
+   - Alternatively, choose another OS if needed.
+2. **Choose a GPU:**
+   - For training and testing, **NVIDIA RTX Series** GPUs are recommended.
+   - Good options include **RTX 3060, RTX 3070, and RTX 3090**, depending on your computational requirements.
+3. **Select Server Type:**
+   - **On-demand servers** are recommended since **interruptible servers** may be disconnected unexpectedly.
+4. After selecting your server, click **RENT** to proceed.
+5. You will be redirected to a page that looks like the following.
